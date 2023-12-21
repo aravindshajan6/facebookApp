@@ -15,7 +15,6 @@
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://aravindshajan6.github.io/facebookApp",
-              
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
