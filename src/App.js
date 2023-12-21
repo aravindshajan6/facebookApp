@@ -11,19 +11,20 @@ import {
   Route
 } from "react-router-dom";
 
+const Routing = () => {
+  
+  return (
+      <Routes>
+        
+        <Route path="/"  element={<Home />} />
+        <Route path="/login"  element={<Login />} />
+        <Route path="/privacy"  element={<PrivacyPolicy />} />
+
+      </Routes>
+  )
+}
 
 function App() {
-
-  const Routing = () => {
-    return (
-        <Routes>
-          <Route path="/"  element={<Home />} />
-          <Route path="/login"  element={<Login />} />
-          <Route path="/privacy"  element={<PrivacyPolicy />} />
-
-        </Routes>
-    )
-  }
 
   return (
     <div className="App">
