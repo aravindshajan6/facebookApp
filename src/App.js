@@ -15,9 +15,9 @@ const Routing = () => {
   
   return (
       <Routes>
-        
-        <Route path="/"  element={<Home />} />
-        <Route path="/login"  element={<Login />} />
+
+        {/* <Route path="/"  element={<Home />} /> */}
+        {/* <Route path="/login"  element={<Login />} /> */}
         <Route path="/privacy"  element={<PrivacyPolicy />} />
 
       </Routes>
@@ -30,6 +30,7 @@ function App() {
     <div className="App">
       <BrowserRouter  >
         <Routing />
+        <PrivacyPolicy />
       </BrowserRouter>
     </div>
   );
