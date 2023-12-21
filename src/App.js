@@ -14,17 +14,22 @@ import {
 
 function App() {
 
-  return (
-    <div className="App">
-      <BrowserRouter  >
+  const Routing = () => {
+    return (
         <Routes>
           <Route path="/"  element={<Home />} />
           <Route path="/login"  element={<Login />} />
-          <Route path="/privacy-policy"  element={<PrivacyPolicy />} />
+          <Route path="/privacy"  element={<PrivacyPolicy />} />
 
         </Routes>
+    )
+  }
+
+  return (
+    <div className="App">
+      <BrowserRouter  >
+        <Routing />
       </BrowserRouter>
-      <Home />
     </div>
   );
 }
