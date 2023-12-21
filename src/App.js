@@ -18,13 +18,13 @@ function App() {
     <div className="App">
       <BrowserRouter  >
         <Routes>
-          <Route path="/" index element={<Home />} />
-          <Route path="login"  element={<Login />} />
-          <Route path="privacy-policy"  element={<PrivacyPolicy />} />
+          <Route path="/"  element={<Home />} />
+          <Route path="/login"  element={<Login />} />
+          <Route path="/privacy-policy"  element={<PrivacyPolicy />} />
 
         </Routes>
       </BrowserRouter>
-      Hello
+      <Home />
     </div>
   );
 }
